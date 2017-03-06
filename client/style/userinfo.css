@@ -1,0 +1,8 @@
+.user-data {float: left; width: 900px; margin-left: 20px;}
+.user-data ul { margin-left: 40px; margin-top: 20px;}
+.user-data li {font-size:16px;line-height:50px;}
+.user-data img{display:inline;width:50px;border-radius: 50px;vertical-align: middle;}
+.user-data .gotopay{color: #f39c12; text-decoration: underline;}
+.user-data .btn a{display: inline-block; width:130px;height:40px;line-height:40px;margin:40px; text-align:center;color: #fff; border-radius: 5px;}
+.user-data .btn .modify-data{background-color: #00a65a;}
+.user-data .btn .modify-password{background-color: #f39c12;}

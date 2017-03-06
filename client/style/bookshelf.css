@@ -1,0 +1,14 @@
+.recent-read {float: left; width: 900px; margin-left: 20px;}
+.recent-read .item{ float: left; width: 440px; height:135px; margin-right: 20px; margin-top: 20px; }
+.recent-read .item:nth-child(2n-1){ margin-right: 0; }
+.recent-read .item .book-img{ float: left; width: 100px;  }
+.recent-read .item .book-img img{ width: 100px; }
+.recent-read .item .book-info{ float: left; width: 330px; margin-left: 10px; }
+.recent-read .item .book-info h2{ font-size: 16px; }
+.recent-read .item .book-info h2 a{ float: right; font-size: 12px;  color: #b3b3b3; cursor: pointer; margin-top: 5px; }
+.recent-read .item .book-info h2 a:hover{ text-decoration: underline; }
+.recent-read .item .book-info h3{ margin-top: 10px; }
+.recent-read .item .book-info p{ margin-top: 20px; }
+.recent-read .item .book-info p:last-child{ text-align: right; }
+.recent-read .item .book-info p:last-child a{ color: #00a65a; }
+.recent-read .item .book-info p:last-child a:hover{ text-decoration: underline; }

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title><%=title%></title>
+	<link rel="stylesheet" type="text/css" href="/style/common.css">
+	<link rel="stylesheet" type="text/css" href="/style/login.css">
+	<script src="//cdn.bootcss.com/jquery/3.1.1/jquery.min.js"></script>
+</head>
+<body>
+	<%- include('./partial/header') %>
+	<div class="main">
+		<div class="container login-container">
+			<div class="login">
+				<h1>用户登录</h1>
+				<div class="input-box">
+					<input class="account" type="text" placeholder="请输入用户名，手机号或邮箱">
+					<input class="password" type="password" placeholder="请输入密码">
+					<a href="javascript:;">立即登录</a>
+				</div>
+			</div>
+			<div class="line"></div>
+			<div class="fast_login">
+				<h1>快捷登录</h1>
+				<div class="login_ic">
+					<a class="wechat" href="<%=dataToRender.loginUri.login_wechat%>"></a>
+					<a class="qq" href="<%=dataToRender.loginUri.login_qq%>"></a>
+					<a class="weibo" href="<%=dataToRender.loginUri.login_sina%>"></a>
+				</div>
+			</div>
+			<div class="pic">
+				<img src="/img/login_img.jpg">
+			</div>
+		</div>
+	</div>
+
+	<!--footer-->
+    <%- include('./partial/footer') %>
+
+	<!--common script-->
+    <%- include('./partial/common_script') %>
+
+	<!--else script-->
+</body>
+</html>

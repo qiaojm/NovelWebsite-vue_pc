@@ -1,0 +1,23 @@
+@keyframes shake{
+	0%{ transform: rotate(0); }
+	50%{ transform: rotate(-30deg); }
+	100%{ transform: rotate(0); }
+}
+.comment .user-comment h1{ color: #f39c12; line-height: 24px; }
+.comment .user{ height: 40px; }
+.comment .user-name{ float: left; margin-left: 10px; }
+.comment .user-name p{ font-size: 12px; color: #b3b3b3; }
+.comment .user-comment .text{ margin-top: 10px; padding: 0 5px; line-height: 22px; }
+.comment .user-comment .zan{ height: 95px; text-align: center; margin-top: 20px; }
+.comment .user-comment .zan span{ display: inline-block; width: 70px; height: 70px; background-color: #ccc; border-radius: 35px; cursor: pointer; background-image: url(../img/icons.png); background-position: -72px -100px; background-size: 200px; transition: background-color ease .5s; }
+.comment .user-comment .zan p{ line-height: 20px; margin-top: 5px; color: #b3b3b3; }
+.comment .user-comment .zan .click{ animation: shake .3s ease-in; background-color: #00a65a; }
+.comment .text span{ color: #f39c12; }
+.comment .reply h1{ font-size: 14px; }
+.book-info{ float: left; width: 220px; margin-left: 20px; }
+.book-info .book-cover{ width: 180px; margin: 0 auto; }
+.book-info .book-cover img{ width: 100%; }
+.book-info h1{ text-align: center; margin-top: 4px; }
+.book-info h2{ font-size: 14px; color: #b3b3b3; margin-top: 3px; text-align: center; }
+.book-info p{ text-indent: 24px; font-size: 14px; color: #b3b3b3; margin-top: 8px; }
+.book-info .info{ margin-top: 8px; font-size: 14px; }

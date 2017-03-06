@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title><%=title%></title>
+    <link rel="stylesheet" type="text/css" href="/style/common.css">
+    <link rel="stylesheet" type="text/css" href="/style/userinfo.css">
+</head>
+<body>
+<%- include('./partial/header') %>
+<div class="main">
+    <div class="main-userinfo">
+        <%- include('./partial/userside') %>
+        <div class="container user-data">
+            <h1>用户资料</h1>
+            <ul>
+                <li>头像：<img src="/img/noavatarl.jpg" alt="用户头像"></li>
+                <li>用户ID：261230</li>
+                <li>昵称：我是女王大人</li>
+                <li>账户余额：6000阅币 <a class="gotopay" href="/pay">去充值</a></li>
+                <li>用户类型：普通会员</li>
+                <li>用户等级：下士</li>
+                <li>性别：女</li>
+                <li>绑定手机号：18791569903</li>
+                <li>Email：18791569@qq.com</li>
+                <li>QQ：321312313</li>
+            </ul>
+            <div class="btn">
+                <a class="modify-data">修改资料</a> <a class="modify-password">修改密码</a>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<!--footer-->
+<%- include('./partial/footer') %>
+
+<!--common script-->
+<%- include('./partial/common_script') %>
+
+<!--else script-->
+</body>
+</html>

@@ -1,2 +1,4 @@
-# NovelWebsite-vue_pc
-a novel website
+```
+npm i
+supervisor --harmony server/default.js
+```

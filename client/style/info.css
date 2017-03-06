@@ -1,0 +1,51 @@
+.left-container .info-box .base-info{ overflow: hidden; }
+.left-container .info-box .img{ float: left; width: 250px; }
+.left-container .info-box .img img{ width: 250px; }
+.left-container .info-box .info{ float: left; width: 610px; margin-left: 20px; position: relative; }
+.left-container .info-box .info h1{ font-size: 22px; }
+.left-container .info-box .info .data-info{ width: 360px; margin-top: 15px; height: 120px; }
+.left-container .info-box .info .data-info dl{ float: left; width: 180px; height: 40px; line-height: 40px; }
+.left-container .info-box .info .data-info dl dt{ float: left; width: 60px; text-align: right; }
+.left-container .info-box .info .data-info dl dd{ float: left; width: 120px; }
+.left-container .info-box .info .data-info dl dd span{ color: #00a65a; font-size: 18px; font-weight: bold; }
+.left-container .info-box .info .brief{ margin-top: 10px; }
+.left-container .info-box .info .brief p{ text-indent: 28px; line-height: 24px; }
+.left-container .info-box .info .btn-box{ height: 30px; margin-top: 60px; }
+.left-container .info-box .info .btn-box .btn{ float: left; width: 151px; text-align: center; border-right: solid 1px #ccc; }
+.left-container .info-box .info .btn-box .btn:last-child{ border-right: none; }
+.left-container .info-box .info .btn-box a{ display: inline-block; padding-left: 25px; position: relative; }
+.left-container .info-box .info .btn-box a:after{ width: 20px; height: 20px; left: 0px; top: 0; background-image: url(../img/icons1.png); transition: background-image 250ms ease; }
+.left-container .info-box .info .btn-box a:hover:after{ background-image: url(../img/icons2.png); }
+.left-container .info-box .info .btn-box .btn:nth-child(1) a:after{ background-position: -25px -1px; }
+.left-container .info-box .info .btn-box .btn:nth-child(2) a:after{ background-position: -55px -1px; }
+.left-container .info-box .info .btn-box .btn:nth-child(3) a:after{ background-position: -80px 1px; }
+.left-container .info-box .info .btn-box .btn:nth-child(4) a:after{ background-position: -2px -22px; }
+.left-container .info-box .info .read-btn{ position: absolute; right: 0; top: 120px; padding: 13px 15px 13px 40px; background-color: #dd4c3b; border-radius: 5px; color: #fff; font-size: 16px; transition: background-color 250ms ease; }
+.left-container .info-box .info .read-btn:after{ left: 15px; top: 12px; width:0; height:0; border-left:16px solid #fff; border-top:12px solid transparent; border-bottom: 12px solid transparent; }
+.left-container .info-box .info .read-btn:hover{ background-color: #c93927; }
+.left-container .info-box .info .recommend{ position: absolute; right: 0; top: 5px; height: 24px; line-height: 24px; padding-left: 30px; cursor: pointer; }
+.left-container .info-box .info .recommend:after{ left: 1px; top: 0px; width: 24px; height: 24px; background: url(../img/icons1.png); background-position: 2px 2px; transition: background-image 250ms ease; }
+.left-container .info-box .info .recommend:hover:after{ background: url(../img/icons2.png); background-position: 2px 2px; }
+.left-container .info-box .new-chapter{ margin-top: 15px; }
+.left-container .info-box .new-chapter p{ text-indent: 28px; color: #999; margin-top: 5px; line-height: 22px; }
+.left-container .info-box .new-chapter p a{ color: #f39c12; text-decoration: underline; }
+.left-container .fans-reward{ margin: 20px 0; overflow: hidden; }
+.left-container .fans-reward .btn{ float: left; width: 110px; background-color: #fff; margin-left: 20px; border-radius: 5px; text-align: center; line-height: 30px; cursor: pointer; }
+.left-container .fans-reward .btn:first-child{ margin-left: 0; }
+.left-container .fans-reward .btn span{ display: block; width: 100px; height: 100px; margin: 0 auto; background-image: url(../img/rewards.png); background-repeat: no-repeat; opacity: .8; }
+.left-container .fans-reward .btn:hover span{ opacity: 1; }
+.left-container .fans-reward .btn:nth-of-type(1) span{ background-position: 13px 15px; }
+.left-container .fans-reward .btn:nth-of-type(2) span{ background-position: -103px 5px; }
+.left-container .fans-reward .btn:nth-of-type(3) span{ background-position: 14px -78px; }
+.left-container .fans-reward .btn:nth-of-type(4) span{ background-position: -98px -90px; }
+.left-container .fans-reward .btn:nth-of-type(5) span{ background-position: 3px -170px; }
+.left-container .fans-reward .btn:nth-of-type(6) span{ background-position: -110px -180px; }
+.left-container .fans-reward .click-btn{ float: left; width: 100px; text-align: center; margin-left: 30px; cursor: pointer; }
+.left-container .fans-reward .click-btn span{ display: inline-block; width: 69px; height: 69px; background-color: #dd4b39; color: #fff; font-size: 38px; text-align: center; line-height: 69px; border-radius: 35px; margin-top: 10px; }
+.left-container .fans-reward .click-btn a{ display: inline-block; padding: 5px 10px; border-radius: 5px; background-color: #dd4b39; color: #fff; margin-top: 5px; }
+.right-container .fans-rank{ height: 370px; margin-bottom: 20px; line-height: 30px; }
+.right-container .fans-rank li{ height: 30px; }
+.right-container .fans-rank span{ float: left; margin-top: 5px; }
+.right-container .fans-rank li a{ float: left; }
+.right-container .fans-rank p{ float: left; width: 94px; height: 30px; margin-left: 3px; overflow: hidden;white-space:nowrap; text-overflow:ellipsis; }
+.right-container .fans-rank i{ float: left; width: 72px; font-size: 13px; text-align: right; }
