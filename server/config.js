@@ -2,7 +2,7 @@
 const config = {
     name:"read",
     http:{
-        port:"8080"
+        port:"80"
     },
     base_url_static_file:"/static",
     static_file_folder: "../client",
