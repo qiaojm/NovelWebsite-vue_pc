@@ -11,7 +11,6 @@ const config = {
         login_sina: "javascript:void(0)",
         login_wechat: "javascript:void(0)"
     },
-    pay_uri:"http://wenhua.yueloo.com/v1.0/pay/"
 
 }
 module.exports = config;
