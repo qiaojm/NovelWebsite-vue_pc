@@ -1,25 +1,16 @@
 {
-  "name": "project_pc",
+  "name": "novle-website",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "d": "supervisor --harmony server/default.js",
-    "dev": "webpack-dev-server --devtool eval --progress --colors  --inline --hot --content-base test/ && supervisor --harmony server/default.js",
+    "dev": "supervisor --harmony server/default.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "ejs": "^2.5.5",
-    "express": "^4.14.0",
-    "q": "^1.4.1",
-    "request": "^2.79.0"
-  },
-  "devDependencies": {
-    "css-loader": "^0.26.1",
-    "style-loader": "^0.13.1",
-    "webpack": "^1.14.0",
-    "webpack-dev-server": "^1.16.2"
+    "express": "^4.14.0"
   }
 }

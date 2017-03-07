@@ -7,9 +7,9 @@ const config = {
     base_url_static_file:"/static",
     static_file_folder: "../client",
     login_uri:{
-        login_qq:"http://www.liu-liang.net:8000/v1.0/login/qq/qqlogin",
-        login_sina: "http://www.liu-liang.net:8000/v1.0/login/weibo/weiboLogin",
-        login_wechat: "http://www.liu-liang.net:8000/v1.0/login/wechat/pc"
+        login_qq:"javascript:void(0)",
+        login_sina: "javascript:void(0)",
+        login_wechat: "javascript:void(0)"
     },
     pay_uri:"http://wenhua.yueloo.com/v1.0/pay/"
 
