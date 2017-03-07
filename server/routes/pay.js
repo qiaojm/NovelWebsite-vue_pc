@@ -5,10 +5,6 @@ var request = require('request');
 var Q = require('q');
 
 router.get('/', function (req, res, next) {
-
-    
-    
-
     request(cfg.pay_uri, function (error, response, body) {
         if (!error && response.statusCode == 200) {
             var result = JSON.parse(body)

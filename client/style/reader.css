@@ -1,5 +1,6 @@
-.default{ background-color: #e3d1bd; }
-.default .content-box{ background-color: #f8f0e7; }
+html{ overflow-y: scroll; }
+.default{ background-color: #aad7ab; }
+.default .content-box{ background-color: #f1f1f1; }
 .default .control-float a{ background-color: #f8f0e7; }
 
 .greenBg{ background-color: #aad7ab; }
@@ -14,7 +15,7 @@
 .darkBg .content-box{ background-color: #4a4846; }
 .darkBg .control-float a{ background-color: #4a4846; }
 
-.content-box{ width: 800px; margin: 0 auto; margin-top: 70px; padding: 20px 50px; }
+.content-box{ width: 800px; margin: 0 auto; margin-top: 20px; padding: 20px 50px; }
 .content-box h1{ font-size: 26px; text-align: center; }
 .content-box h2{ text-align: center; margin-top: 10px; }
 .content-box .content{ margin-top: 30px; }
@@ -22,7 +23,7 @@
 .control-top-btn{ position: fixed; width: 100%; left: 0; top: 0; }
 .control-bottom-btn{ position: fixed; width: 100%; left: 0; bottom: 0; }
 .control-float{ width: 900px; margin: 0 auto; position: relative; }
-.top-left-btn{ position: absolute; top: 70px; left: -63px; width: 60px; }
+.top-left-btn{ position: absolute; top: 150px; left: -63px; width: 60px; }
 .bottom-right-btn{ position: absolute; bottom: 0; right: -63px; width: 60px; }
 .control-float a{ display: block; text-align: center; margin-bottom: 2px; border-radius: 2px; font-size: 12px; line-height: 24px; padding-top: 8px; cursor: pointer; }
 .control-float a i{ display: block; width: 30px; height: 30px; margin: 0 auto; background-image: url("../img/icons.png"); }

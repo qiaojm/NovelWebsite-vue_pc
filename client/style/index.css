@@ -45,4 +45,13 @@
 .update-container .new-update .list-item span{ display: inline-block; width: 160px; }
 .update-container .new-update .list-item i{ display: inline-block; width: 120px; color: #b3b3b3; }
 .update-container .good-book{ height: 410px; }
-.update-container .good-book ul li p a{ line-height: 32px; } 
+.update-container .good-book ul li p a{ line-height: 32px; }
+.banner_1{height: 150px;margin: 20px 0px 20px 0px}
+.banner_1 ul{margin-left: 40px;margin-right: 40px}
+.banner_1 li{float: left;}
+.mr{margin-right: 87px}
+.banner_2{height: 150px;margin: 20px 0px 20px 0px}
+.b_left{float: left;}
+.b_right{float: right;}
+.banner_2 img{height: 150px;width:570px;}
+
