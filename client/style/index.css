@@ -1,3 +1,4 @@
+img{border-width: 0px}
 .main-recommend{ height: 440px; }
 .main-recommend .picture-recommend{ float: left; width: 310px; height: 400px; }
 .main-recommend .picture-recommend .large-img{ float: left; width: 230px; display: none; }
