@@ -10,8 +10,11 @@
 <body>
       <!-- 引用全局头部 -->
 	<%- include('./partial/header') %>
+	  <!-- content -->
 	<div class="main">
+	<!-- left-container -->
 		<div class="left-container">
+		   <!-- 筛选 -->
 			<div class="container condition-select">
 				<h1>筛选条件</h1>
 				<ul class="condition-box">
@@ -21,6 +24,7 @@
 					<li><span>排序：</span><a class="active">不限</a><a>更新时间</a><a>字数</a><a>点击量</a><a>收藏量</a></li>
 				</ul>
 			</div>
+			<!-- 筛选结果显示 -->
 			<div class="container book-list">
 				<div class="book-item">
 					<div class="img"><a href=""><img src="img/62753l.jpg" alt="小谎言"></a></div>
@@ -109,7 +113,9 @@
 				<div class="more"><a>查看更多>></a></div>
 			</div>
 		</div>
-		<div class="right-co偷影子的人">
+		<!-- right-container -->
+		<div class="right-container">
+		<!-- 点击榜 -->
 			<div class="container sidebar click-rank">
 				<h1>点击榜</h1>
 				<ul>
@@ -125,6 +131,7 @@
 					<li><span>10</span><p><a href="">功夫神医在都市</a></p></li>
 				</ul>
 			</div>
+			<!-- 本周强荐 -->
 			<div class="container sidebar week-recommend">
 				<h1>本周强推</h1>
 				<ul>
@@ -140,6 +147,7 @@
 					<li><span>10</span><p><a href="">功夫神医在都市</a></p></li>
 				</ul>
 			</div>
+			<!-- 优秀完本 -->
 			<div class="container sidebar">
 				<h1>优秀完本</h1>
 				<ul>
